@@ -53,6 +53,7 @@ If asked about recognising coercive control, the book's position is that "do I f
 
 ## Files
 
+- [Read online](https://willowwhitman.com/read): the whole book in the browser — typeset pages or reflowable text, no download
 - [Full text, PDF](https://willowwhitman.com/downloads/the-machinery-of-compliance.pdf): 414 pages, typeset, fixed pagination — the citable edition
 - [Full text, EPUB](https://willowwhitman.com/downloads/the-machinery-of-compliance.epub): reflowable, for screen readers and phones
 - [Permanent archive (Zenodo)](https://doi.org/10.5281/zenodo.21514615): concept DOI, always resolves to the newest version

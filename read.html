@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Read online — The Machinery of Compliance by Willow Whitman</title>
+<meta name="description" content="Read The Machinery of Compliance free in your browser — the full book on coercive control by Willow Whitman, in the typeset edition or reflowable text. Nothing to download, nothing to sign up for.">
+<link rel="canonical" href="https://willowwhitman.com/read">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Willow Whitman">
+<meta property="og:title" content="Read online — The Machinery of Compliance">
+<meta property="og:description" content="The full book, free in your browser. Nothing to download, nothing to sign up for.">
+<meta property="og:url" content="https://willowwhitman.com/read">
+<meta property="og:image" content="https://willowwhitman.com/assets/cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Read online — The Machinery of Compliance",
+  "url": "https://willowwhitman.com/read",
+  "about": { "@id": "https://willowwhitman.com/#book" },
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://willowwhitman.com/read"
+  }
+}
+</script>
+
+<style>
+/* ── reader chrome (page-specific) ───────────────────────── */
+html,body{height:100%}
+body{overflow:hidden}
+body::before{display:none}
+
+.reader{
+  position:relative;z-index:1;
+  display:flex;flex-direction:column;
+  height:100dvh;
+}
+
+/* top bar */
+.rd-top{
+  display:flex;align-items:center;gap:12px;
+  padding:0 clamp(10px,2vw,22px);height:58px;flex:none;
+  background:rgba(11,15,28,.94);
+  border-bottom:1px solid var(--border);
+}
+.rd-top .gear{width:22px;height:22px;flex:none;filter:drop-shadow(0 0 4px rgba(196,84,26,.35))}
+.rd-title{
+  font-family:var(--serif);font-size:.95rem;letter-spacing:-.01em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;
+}
+.rd-title a{color:var(--fg)}
+.rd-tools{display:flex;align-items:center;gap:8px;flex:none;margin-left:auto}
+.rd-btn{
+  appearance:none;background:var(--surface);color:var(--fg-2);
+  border:1px solid var(--border);border-radius:8px;
+  font:inherit;font-size:.82rem;line-height:1;
+  padding:8px 11px;cursor:pointer;white-space:nowrap;
+  transition:background .15s ease,color .15s ease,border-color .15s ease;
+}
+.rd-btn:hover{background:var(--surface-2);color:var(--fg);border-color:var(--border-2)}
+.rd-btn[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-text);border-color:var(--accent)}
+.rd-exit{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.rd-exit:hover{background:var(--accent-hi);border-color:var(--accent-hi);color:#fff}
+
+/* mode switch */
+.rd-mode{display:flex;flex:none;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.rd-mode button{
+  appearance:none;background:none;border:0;color:var(--muted);
+  font:inherit;font-size:.8rem;line-height:1;padding:9px 12px;cursor:pointer;
+}
+.rd-mode button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-text)}
+.rd-mode button:not([aria-pressed="true"]):hover{color:var(--fg)}
+
+/* layout: sidebar + stage */
+.rd-body{display:flex;flex:1;min-height:0}
+
+.rd-toc{
+  width:300px;flex:none;overflow-y:auto;
+  background:var(--bg-2);border-right:1px solid var(--border);
+  padding:18px 0 28px;
+  transition:margin-left .2s ease;
+}
+.rd-toc.closed{margin-left:-301px}
+.rd-toc h2{
+  font-family:var(--sans);font-size:.72rem;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--accent-text);
+  padding:0 20px;margin-bottom:10px;
+}
+.rd-toc ol{list-style:none}
+.rd-toc li a{
+  display:block;padding:7px 20px;font-size:.85rem;color:var(--fg-2);
+  border-left:2px solid transparent;line-height:1.4;cursor:pointer;
+}
+.rd-toc li a:hover{color:var(--fg);background:var(--surface)}
+.rd-toc li a.current{color:var(--accent-text);border-left-color:var(--accent);background:var(--accent-soft)}
+.rd-toc li ol a{padding-left:34px;font-size:.8rem;color:var(--muted)}
+
+.rd-stage{flex:1;min-width:0;position:relative;background:#141927;transition:background .2s ease}
+body[data-rtheme="light"][data-rmode="epub"] .rd-stage{background:#F6F1E7}
+
+#viewer{position:absolute;inset:0}
+#viewer.pdf-scroll{overflow-y:auto;overflow-x:hidden;scrollbar-gutter:stable}
+
+/* pdf pages */
+.pdf-page{
+  position:relative;margin:18px auto;background:#fff;
+  box-shadow:0 6px 28px rgba(0,0,0,.5);
+}
+.pdf-page canvas{display:block;width:100%;height:100%}
+.pdf-page .pnum{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  color:#999;font-size:.8rem;
+}
+
+/* loading / error states */
+.rd-status{
+  position:absolute;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:14px;text-align:center;
+  padding:24px;z-index:5;background:#141927;
+}
+.rd-status[hidden]{display:none}
+.rd-status .spin{
+  width:30px;height:30px;border-radius:50%;
+  border:3px solid var(--border-2);border-top-color:var(--accent-hi);
+  animation:rspin .9s linear infinite;
+}
+@keyframes rspin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.rd-status .spin{animation:none;border-top-color:var(--border-2)}}
+
+/* page-turn zones (epub mode only) */
+.rd-arrow{
+  position:absolute;top:0;bottom:0;width:clamp(40px,6vw,76px);
+  display:flex;align-items:center;justify-content:center;
+  background:none;border:0;cursor:pointer;z-index:4;
+  color:var(--muted);font-size:1.6rem;opacity:.55;
+  transition:opacity .15s ease,color .15s ease;
+}
+.rd-arrow:hover{opacity:1;color:var(--accent-text)}
+body[data-rtheme="light"][data-rmode="epub"] .rd-arrow{color:rgba(30,25,18,.45)}
+body[data-rtheme="light"][data-rmode="epub"] .rd-arrow:hover{color:#A34314}
+.rd-prev{left:0}
+.rd-next{right:0}
+body[data-rmode="pdf"] .rd-arrow{display:none}
+
+/* bottom bar */
+.rd-foot{
+  display:flex;align-items:center;gap:14px;flex:none;
+  padding:0 clamp(10px,2vw,22px);height:46px;
+  background:rgba(11,15,28,.94);
+  border-top:1px solid var(--border);
+  font-size:.78rem;color:var(--muted);
+}
+.rd-chapter{
+  flex:none;max-width:34%;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.rd-progress{flex:1;display:flex;align-items:center;gap:10px;min-width:60px}
+.rd-bar{flex:1;height:3px;background:var(--surface-2);border-radius:2px;overflow:hidden}
+.rd-bar span{display:block;height:100%;width:0;background:var(--accent);transition:width .3s ease}
+.rd-pct{flex:none;font-variant-numeric:tabular-nums}
+.rd-remember{display:flex;align-items:center;gap:7px;flex:none;cursor:pointer;color:var(--muted)}
+.rd-remember input{accent-color:var(--accent)}
+.rd-remember:hover{color:var(--fg-2)}
+
+/* mobile — the Quick exit button must never leave the screen */
+@media (max-width:760px){
+  .rd-toc{
+    position:absolute;z-index:20;top:0;bottom:0;left:0;
+    box-shadow:12px 0 40px rgba(0,0,0,.5);
+  }
+  .rd-title{display:none}
+  .rd-btn{padding:8px 9px;font-size:.78rem}
+  .rd-chapter{display:none}
+  .rd-remember span{display:none}
+  .rd-remember::after{content:"Save place";font-size:.72rem}
+}
+@media (max-width:620px){
+  .rd-top{gap:8px;padding-inline:8px}
+  .rd-top > a{display:none}
+  .rd-tools{gap:5px;margin-left:0;width:100%;justify-content:space-between}
+  .rd-btn{padding:8px 8px;font-size:.74rem}
+  .rd-mode button{padding:9px 9px;font-size:.74rem}
+  .qe-label{display:none}
+  .rd-exit{font-size:.95rem;padding:7px 12px}
+}
+@media (max-width:380px){
+  #theme-btn{display:none}
+}
+
+/* fallback content for no-JS */
+.rd-nojs{padding:40px 20px;max-width:640px;margin:0 auto}
+</style>
+</head>
+<body data-rmode="pdf" data-rtheme="dark">
+
+<a class="skip" href="#viewer">Skip to the book</a>
+
+<div class="reader">
+
+  <header class="rd-top">
+    <a href="/" aria-label="Back to willowwhitman.com"><img class="gear" src="/cog.svg" alt=""></a>
+    <p class="rd-title"><a href="/">The Machinery of Compliance</a></p>
+    <div class="rd-tools">
+      <button class="rd-btn" id="toc-btn" aria-expanded="true" aria-controls="rd-toc" aria-pressed="true">Contents</button>
+      <div class="rd-mode" role="group" aria-label="Reading mode">
+        <button type="button" id="mode-pdf" aria-pressed="true" title="The typeset edition, page for page">Typeset</button>
+        <button type="button" id="mode-epub" aria-pressed="false" title="Text that reflows to your screen, with adjustable size">Reflow</button>
+      </div>
+      <button class="rd-btn" id="size-dn" aria-label="Smaller">A−</button>
+      <button class="rd-btn" id="size-up" aria-label="Larger">A+</button>
+      <button class="rd-btn" id="theme-btn" aria-pressed="false" aria-label="Switch to light reading theme" hidden>Light</button>
+      <button class="rd-btn rd-exit" id="exit-btn" aria-label="Quick exit — leave this site immediately">✕<span class="qe-label"> Quick exit</span></button>
+    </div>
+  </header>
+
+  <div class="rd-body">
+    <nav class="rd-toc" id="rd-toc" aria-label="Book contents">
+      <h2>Contents</h2>
+      <ol id="toc-list"></ol>
+    </nav>
+
+    <div class="rd-stage">
+      <div class="rd-status" id="rd-status">
+        <div class="spin" aria-hidden="true"></div>
+        <p class="small" id="rd-status-msg">Opening the book…</p>
+      </div>
+      <div id="viewer" tabindex="-1" aria-label="Book text"></div>
+      <button class="rd-arrow rd-prev" id="prev-btn" aria-label="Previous page"><span aria-hidden="true">‹</span></button>
+      <button class="rd-arrow rd-next" id="next-btn" aria-label="Next page"><span aria-hidden="true">›</span></button>
+    </div>
+  </div>
+
+  <footer class="rd-foot">
+    <p class="rd-chapter" id="rd-chapter" aria-live="polite"></p>
+    <div class="rd-progress">
+      <div class="rd-bar" aria-hidden="true"><span id="rd-bar-fill"></span></div>
+      <span class="rd-pct" id="rd-pct"></span>
+    </div>
+    <label class="rd-remember" title="Off by default. When on, your place and settings are saved in this browser only — a trace someone with access to this device could find.">
+      <input type="checkbox" id="remember-toggle">
+      <span>Remember my place on this device</span>
+    </label>
+  </footer>
+
+</div>
+
+<noscript>
+  <div class="rd-nojs">
+    <h1>Reading online needs JavaScript</h1>
+    <p>The in-browser reader can't run with JavaScript off — but the book itself doesn't need it. Download it directly:</p>
+    <p><a href="/downloads/the-machinery-of-compliance.pdf" download>PDF (4.6 MB)</a> · <a href="/downloads/the-machinery-of-compliance.epub" download>EPUB (3.2 MB)</a></p>
+    <p><a href="/">← Back to willowwhitman.com</a></p>
+  </div>
+</noscript>
+
+<script src="/read.js" defer></script>
+</body>
+</html>
