@@ -239,3 +239,40 @@ document.querySelectorAll("[data-copy]").forEach((btn) => {
     if (taps >= 3) bail();
   });
 })();
+
+/* ── mobile navigation ─────────────────────────────────────── */
+(function () {
+  const btn = document.getElementById("nav-toggle");
+  const list = document.getElementById("nav-links");
+  if (!btn || !list) return;
+  const setOpen = (open) => {
+    list.classList.toggle("open", open);
+    btn.setAttribute("aria-expanded", String(open));
+  };
+  btn.addEventListener("click", () => setOpen(!list.classList.contains("open")));
+  // close after choosing a destination, and on Escape
+  list.addEventListener("click", (e) => { if (e.target.closest("a")) setOpen(false); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && list.classList.contains("open")) { setOpen(false); btn.focus(); }
+  });
+})();
+
+/* ── back to top ───────────────────────────────────────────── */
+(function () {
+  const btn = document.getElementById("to-top");
+  if (!btn) return;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let ticking = false;
+  const update = () => {
+    btn.classList.toggle("show", window.scrollY > 900);
+    ticking = false;
+  };
+  addEventListener("scroll", () => {
+    if (!ticking) { requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    document.getElementById("main")?.focus?.();
+  });
+  update();
+})();

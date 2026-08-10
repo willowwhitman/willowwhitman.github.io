@@ -369,3 +369,77 @@ ul.tags li{
   margin-bottom:.5em;scroll-margin-top:84px;
 }
 .glossary dd{font-size:.9rem;color:var(--fg-2);line-height:1.6}
+
+/* ── mobile navigation ────────────────────────────────────── */
+.nav-toggle{
+  display:none;background:transparent;border:0;cursor:pointer;
+  width:40px;height:40px;padding:9px;flex:none;
+}
+.nav-toggle span{
+  display:block;height:2px;background:var(--fg-2);border-radius:2px;
+  transition:transform .22s ease,opacity .18s ease;
+}
+.nav-toggle span+span{margin-top:5px}
+.nav-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.nav-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+@media (max-width:760px){
+  .nav-toggle{display:block}
+  .nav-links{
+    position:absolute;top:66px;left:0;right:0;
+    flex-direction:column;align-items:stretch;gap:0;
+    background:rgba(11,15,28,.98);
+    backdrop-filter:saturate(150%) blur(14px);
+    -webkit-backdrop-filter:saturate(150%) blur(14px);
+    border-bottom:1px solid var(--border);
+    max-height:0;overflow:hidden;transition:max-height .25s ease;
+  }
+  .nav-links.open{max-height:26rem}
+  .nav-links li{display:block!important;border-top:1px solid var(--border)}
+  .nav-links li:first-child{border-top:0}
+  .nav-links a{display:block;padding:15px clamp(20px,5vw,40px);font-size:1rem}
+  .nav-cta{
+    border:0;border-radius:0;color:var(--accent-text)!important;
+    padding:15px clamp(20px,5vw,40px)!important;font-weight:700;
+  }
+  .nav-cta:hover{background:transparent;color:var(--fg)!important}
+}
+
+/* ── back to top ──────────────────────────────────────────── */
+.to-top{
+  position:fixed;right:16px;bottom:16px;z-index:150;
+  width:44px;height:44px;border-radius:50%;cursor:pointer;
+  background:var(--surface-2);color:var(--fg);
+  border:1px solid var(--border-2);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  font-size:1.05rem;line-height:1;
+  opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:opacity .2s ease,transform .2s ease,visibility .2s;
+}
+.to-top.show{opacity:1;visibility:visible;transform:none}
+.to-top:hover{border-color:var(--accent);color:var(--accent-text)}
+/* on phones the quick-exit sits bottom-right, so move this to the left */
+@media (max-width:560px){ .to-top{right:auto;left:16px} }
+
+/* ── print: the practical sections should survive paper ───── */
+@media print{
+  :root{--fg:#000;--fg-2:#1a1a1a;--muted:#444}
+  body{background:#fff;color:#000;font-size:11pt;line-height:1.45}
+  body::before{display:none}
+  .nav,.exit-btn,.to-top,.search-wrap,.cta-row,.hero-cover,
+  .download-grid,.copy-btn,.nav-toggle{display:none!important}
+  .band,.hero{padding:0;border:0;background:#fff!important}
+  .band-alt,.short-band{background:#fff!important}
+  h1,h2,h3,h4{color:#000;page-break-after:avoid}
+  p,li{orphans:3;widows:3}
+  .steps li,.tests li,.tier,.res,.glossary dl>div,.definition,.caution,.safety-box,.cite{
+    background:#fff!important;border:1px solid #bbb!important;page-break-inside:avoid;
+  }
+  .faq details{page-break-inside:avoid}
+  .faq details p{display:block!important}
+  a{color:#000;text-decoration:underline}
+  /* show link targets on paper, since a printed link is otherwise useless */
+  .res a::after,.safety-links a::after{content:" (" attr(href) ")";font-size:9pt;color:#444}
+  #short,#recognising{page-break-before:always}
+}
