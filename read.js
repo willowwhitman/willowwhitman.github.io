@@ -361,6 +361,22 @@
       if (e.key === "ArrowLeft") ep.rendition.prev();
       if (e.key === "Escape") countEscape();
     });
+    /* swipe to turn pages (epub.js relays touch events from the iframe) */
+    let swipeX = null, swipeY = null;
+    ep.rendition.on("touchstart", (e) => {
+      const t = e.changedTouches && e.changedTouches[0];
+      if (t) { swipeX = t.screenX; swipeY = t.screenY; }
+    });
+    ep.rendition.on("touchend", (e) => {
+      const t = e.changedTouches && e.changedTouches[0];
+      if (t && swipeX !== null) {
+        const dx = t.screenX - swipeX, dy = t.screenY - swipeY;
+        if (Math.abs(dx) > 60 && Math.abs(dy) < 60) {
+          if (dx < 0) ep.rendition.next(); else ep.rendition.prev();
+        }
+      }
+      swipeX = swipeY = null;
+    });
 
     const startCfi = load("epub-cfi");
     await ep.rendition.display(startCfi || undefined);
