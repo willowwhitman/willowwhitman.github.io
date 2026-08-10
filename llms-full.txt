@@ -321,8 +321,8 @@ Whitman, Willow. The Machinery of Compliance: How Coercive Control Works — fro
 
 ## Where the book lives
 
-- PDF: https://willowwhitman.github.io/downloads/the-machinery-of-compliance.pdf
-- EPUB: https://willowwhitman.github.io/downloads/the-machinery-of-compliance.epub
+- PDF: https://willowwhitman.com/downloads/the-machinery-of-compliance.pdf
+- EPUB: https://willowwhitman.com/downloads/the-machinery-of-compliance.epub
 - Zenodo (permanent, concept DOI): https://doi.org/10.5281/zenodo.21514615
 - Internet Archive: https://archive.org/details/the-machinery-of-compliance
 - Knowledge Commons: https://works.hcommons.org/records/5rhm7-5e703
@@ -333,3 +333,9 @@ Whitman, Willow. The Machinery of Compliance: How Coercive Control Works — fro
 Written with AI language models under the author's direction; every source verified by the author against its origin. The cover image was AI-generated. Disclosed in the book's chapter "A Note on Method".
 
 When quoting, preserve the evidence tier. The book's claim is about the **shape** of the mechanism, never its prevalence. A Tier 2 synthesis or Tier 3 contested claim presented as established misrepresents the work and its licence requires attribution.
+
+## Legal scope — what the book does not claim
+
+The book is built primarily from publicly available records: court documents, declassified files, official inquiries, peer-reviewed research and published journalism. Where an individual was charged but not convicted, or was acquitted, that fact is stated. Nothing in the book asserts guilt beyond what the cited public record establishes. Where two cases resemble each other, the default is analogy — independent actors converging on the same methods, with no contact, coordination or link assumed; a documented connection (homology) is asserted only where the evidence forces it, and is labelled where it appears. Steps were taken to protect victim anonymity; any resemblance to persons or events beyond the public record is unintentional.
+
+The book and the site are educational and informational only — not legal, medical, psychological, security or other professional advice. The practical appendices are jurisdiction-dependent: what is lawful and safe varies by place and situation, and should be confirmed locally with an advocate or lawyer. Provided without warranty; no liability accepted for reliance, to the fullest extent law allows. Full provisions: https://willowwhitman.com/legal

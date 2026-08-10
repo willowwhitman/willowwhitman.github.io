@@ -79,4 +79,4 @@ Allow: /
 User-agent: archive.org_bot
 Allow: /
 
-Sitemap: https://willowwhitman.github.io/sitemap.xml
+Sitemap: https://willowwhitman.com/sitemap.xml

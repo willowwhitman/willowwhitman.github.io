@@ -95,10 +95,10 @@ p:last-child{margin-bottom:0}
 }
 .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;height:66px}
 .nav-brand{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:.98rem;letter-spacing:-.01em;white-space:nowrap}
-.gear{
-  width:15px;height:15px;border-radius:50%;flex:none;
-  border:2.5px solid var(--accent);
-  box-shadow:0 0 0 3px rgba(196,84,26,.14);
+.nav-brand .gear{
+  width:26px;height:26px;flex:none;display:block;
+  filter:drop-shadow(0 0 4px rgba(196,84,26,.35));
+  animation:turn 20s linear infinite;
 }
 .nav-links{display:flex;align-items:center;gap:26px;list-style:none;font-size:.9rem}
 .nav-links a{color:var(--fg-2);transition:color .16s ease}
@@ -270,6 +270,7 @@ ul.tags li{
 .foot .small{margin-bottom:.35em}
 .foot a{color:var(--fg-2);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--border-2)}
 .foot a:hover{color:var(--accent-text)}
+.foot-legal{margin-top:28px;padding-top:18px;border-top:1px solid var(--border);line-height:2}
 
 /* ── faq ──────────────────────────────────────────────────── */
 .faq{margin-top:1.6em;border-top:1px solid var(--border)}
@@ -472,7 +473,7 @@ ul.tags li{
   .gearfield .gear{opacity:.07}
 }
 @media (prefers-reduced-motion:reduce){
-  .gearfield .gear{animation:none}       /* still there, simply not turning */
+  .gearfield .gear,.nav-brand .gear{animation:none}   /* still there, simply not turning */
 }
 
 /* ── sources ──────────────────────────────────────────────── */
@@ -525,7 +526,17 @@ ul.tags li{
 
 /* hide the wordmark before the links start crushing, not after */
 @media (max-width:1120px){ .nav-brand span:last-child{display:none} }
+/* keep the fixed Quick-exit button clear of the nav CTA on laptop widths */
+@media (min-width:761px) and (max-width:1365px){ .nav-inner{padding-right:140px} }
+/* tighter link spacing while the Quick-exit reserve is active, so the wordmark still fits */
+@media (min-width:1121px) and (max-width:1365px){
+  .nav-inner{gap:24px}
+  .nav-links{gap:15px;font-size:.86rem}
+}
 @media (max-width:900px) and (min-width:761px){
   .nav-links{font-size:.82rem;gap:14px}
   .nav-cta{padding:6px 12px}
+  /* two fewer links so the row clears the fixed Quick-exit button */
+  .nav-links li:has(a[href="#glossary"]),
+  .nav-links li:has(a[href="#sources"]){display:none}
 }
