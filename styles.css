@@ -22,8 +22,8 @@
   --accent-soft:rgba(196,84,26,.14);
   --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
   --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
-  --wrap:1180px;
-  --sect:clamp(72px,9vw,132px);
+  --wrap:940px;
+  --sect:clamp(64px,8vw,104px);
   --r:14px;
 }
 
@@ -62,7 +62,7 @@ img{max-width:100%;height:auto;display:block}
 ::selection{background:var(--accent);color:#fff}
 
 .wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:clamp(20px,5vw,40px)}
-.narrow{max-width:760px}
+.narrow{max-width:var(--wrap)}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 .skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:#fff;padding:12px 18px;z-index:100;border-radius:0 0 8px 0}
@@ -443,3 +443,45 @@ ul.tags li{
   .res a::after,.safety-links a::after{content:" (" attr(href) ")";font-size:9pt;color:#444}
   #short,#recognising{page-break-before:always}
 }
+
+/* ── slow rusted gearwork, well behind the text ───────────── */
+.gearfield{
+  position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;
+  contain:strict;
+}
+.gearfield>svg:first-child{position:absolute;width:0;height:0}
+.gearfield .gear{
+  position:absolute;opacity:.055;
+  will-change:transform;
+  animation:turn linear infinite;
+}
+@keyframes turn{ to{ transform:rotate(360deg) } }
+@keyframes turn-rev{ to{ transform:rotate(-360deg) } }
+
+.gear-a{width:46vmin;height:46vmin;top:-9vmin;right:-11vmin;animation-duration:150s}
+.gear-b{width:30vmin;height:30vmin;top:24vmin;right:16vmin;animation-name:turn-rev;animation-duration:105s}
+.gear-c{width:60vmin;height:60vmin;bottom:-18vmin;left:-16vmin;animation-duration:210s}
+.gear-d{width:24vmin;height:24vmin;bottom:22vmin;left:20vmin;animation-name:turn-rev;animation-duration:85s;opacity:.04}
+
+@media (max-width:700px){
+  .gear-b,.gear-d{display:none}          /* less to paint on phones */
+  .gearfield .gear{opacity:.045}
+}
+@media (prefers-reduced-motion:reduce){
+  .gearfield .gear{animation:none}       /* still there, simply not turning */
+}
+
+/* ── sources ──────────────────────────────────────────────── */
+.srcs{list-style:none;margin:.6em 0 2em;display:grid;gap:2px}
+.srcs li{
+  padding:13px 0 13px 18px;border-left:2px solid var(--border);
+  font-size:.94rem;color:var(--fg-2);line-height:1.55;
+  transition:border-color .18s ease;
+}
+.srcs li:hover{border-left-color:var(--accent)}
+.srcs cite{font-style:italic;color:var(--fg);font-weight:500}
+.srcs strong{color:var(--fg);font-weight:600}
+.srcs span{display:block;margin-top:.3em;font-size:.87rem;color:var(--muted)}
+.srcs a{color:var(--accent-text);text-decoration:underline;text-underline-offset:3px;
+        text-decoration-color:rgba(196,84,26,.4)}
+.srcs a:hover{color:#F09A63}
