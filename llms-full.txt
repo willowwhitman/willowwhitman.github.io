@@ -1,0 +1,335 @@
+# The Machinery of Compliance — full reference
+
+> Expanded companion to /llms.txt. Complete contents, full glossary, the
+> evidence base, the recognition tests and the FAQ, extracted from the
+> published site so it cannot drift from what readers see.
+
+**Author:** Willow Whitman (pseudonym) · **Publisher:** Whitman Press · **First published:** 22 July 2026 · **Version:** 1.0.1
+**Licence:** CC BY-NC-ND 4.0 · **DOI:** 10.5281/zenodo.21514615 · 49 chapters · 414 pages · 642 sourced notes
+
+**Cite as:** Whitman, Willow. *The Machinery of Compliance: How Coercive Control Works — from the Home to the State — and How to Recognize and Reconstruct It.* Whitman Press, 2026. DOI: 10.5281/zenodo.21514615
+
+---
+
+## The short version — the whole book in one sitting
+
+This is the whole book in one sitting. If you are reading it because something is being done to you that you cannot get anyone else to see — read this. If it is all you have room for today, stop here. You will have enough to start.
+
+### What it is
+
+Coercive control is not a character flaw, a run of bad luck, or proof of some defect in the people it happens to. It is a method, with parts, and the parts assemble the same way whether the hand running them belongs to one person in a house or to a state with an intelligence service behind it.
+
+Stripped to its frame, the method is this: cut you off from anyone who could independently confirm what is real; take control of what you are allowed to believe; wear you down until resistance feels pointless; punish you when you step out of line; and build the whole arrangement so that if anyone ever does look, what they see reads as an accident, an illness, your own instability, or a story too far-fetched to take seriously.
+
+### What to do — two things, in this order
+
+First, safety. If there is any risk of physical harm, understand that the most dangerous moment is often not while you stay but when you begin to leave. A safety plan comes before a paper trail. Call your country's helpline from a device the other person cannot reach, before you do anything that could be discovered. Nothing below matters more than this.
+
+Then build a record, because the pattern is the evidence. No single incident will look like much on its own; that is by design. The pattern is what a stranger can finally see, and a pattern only exists if it is written down.
+
+- Write things as they happen — dated, factual, plain, the way a sceptical stranger would need to read them: what happened, when, and who else saw it. Not how it felt; what occurred.
+
+- Keep originals — messages, records, documents — and get copies somewhere no one else can reach: not a shared device, not an account someone else has the password to.
+
+- Already months or years in with nothing written down? You can still rebuild the timeline from traces you never made on purpose — bank and phone records, dates on messages, medical and work files, other people's memories. A gap in your notes is not the end of a record. It is the start of a reconstruction.
+
+The core of it is a single move: a record makes the pattern visible to someone who was not there — on your terms, and in advance, before the story gets decided for you. That is the one thing the machine is built to prevent, which is exactly why it is the thing to do.
+
+### “Am I just paranoid?”
+
+This is usually the question people are most afraid to ask. The answer is not yes, and it is not no. The answer is: you check — and the checking is your protection, not a betrayal of your own judgment.
+
+For each thing that feels wrong, ask whether it is truly the pattern, or whether it is ordinary incompetence, coincidence, or someone simply behaving badly — and require something you could show a stranger before you count it. What is real survives that question easily. What isn't, falls away. Either way you end up holding something you can act on, instead of a fear no one else can see.
+
+Do not inflate one bad event into a whole conspiracy; and do not dismiss a real pattern because each piece, taken alone, looks small. Both mistakes end in the same place — with no one able to help you.
+
+It also helps to know that most situations are one layer, not the whole stack. The full chain is rare and expensive, because every layer costs someone money, coordination and time. Count what is actually in front of you rather than assuming the whole machine. One tapped phone is one tapped phone until there is evidence of more.
+
+Everything on this page is stated plainly and asks to be taken on its usefulness. The rest of the book does the opposite — it proves each piece, across four scales, from a single kitchen table to the CIA, out of court records, declassified files and institutions' own reports on themselves. It is built so you can go as deep as you want and stop wherever you need to.
+
+If this page is all you have room for today, you have enough to begin. Take the safety step. Start the record. Come back for the rest when the ground will hold it.
+
+---
+
+## Complete contents — 49 chapters in 10 parts
+
+### Front matter: Before the argument begins
+
+- If You Are in Danger
+- A Note on Content
+- The Short Version
+- How to Read This Book
+- A Note on Method
+- Introduction: Grammar, Not Vocabulary
+- Map of the Layers
+
+### Part I: The Psychology of the Mechanism
+
+1. The Machinery of Compliance
+2. The Engine
+3. The Reversal
+4. The Curated Mind
+5. The Trained Nervous System
+6. The Omniscient Pocket
+7. The Weather of the Self
+8. The Ledger as Cage
+9. How Ordinary People Live With It
+10. The Perfect Alibi
+11. The Pattern That Isn't There
+12. The Way In
+13. The Hand That Feeds
+14. The Borrowed Threat
+15. The Held Secret
+
+### Part II: The Digital & Physical Infrastructure of Control
+
+16. The Mercenary Market and the Forensic Answer
+17. Every Room, Miked and Watched
+18. The Profiling Engine
+19. The Smart Home as Informant
+20. The Keys to Everything
+21. The Body, the Car, and the Door
+22. The Platform and the Tunnel
+
+### Part III: When Harm Becomes Physical, Across All Four Scales
+
+23. What Looks Like Ordinary Decline
+24. The Subtraction
+25. Four Scales, One Pathogen Logic
+26. The Body and the Bloodline
+27. The Cyanide Convergence
+
+### Part IV: Silencing the Evidence, Across All Four Scales
+
+28. The Arithmetic of Concealment
+29. Silence Enforced by Law and Leverage
+30. The Bullet and the Frozen Account
+
+### Part V: Manufacturing the Narrative, Entrapment & Deception
+
+31. The Real Thing, Engineered
+32. Recruiting the Bystander's Own Eyes
+33. Six Percent of the Truth
+34. A Disclosure That Never Happened
+35. Two Lies, Braced Against Each Other
+36. The Case Made to Fit
+37. The Court as the Instrument
+
+### Part VI: Community & Institutional Capture
+
+38. The World Without Exits
+39. The Community as Informant
+40. The Church as Cover
+41. The Parallel Life
+
+### Part VII: From the Syndicate to the State
+
+42. The Escalator With No Clean Line
+43. The State Confesses
+
+### Part VIII: Intelligence-Grade Operations & the State
+
+44. The Same Form, Every Time
+45. The Firehose
+46. The Crowd as the Weapon
+
+### Part IX: Money, Total Access, and the Convergence
+
+47. Money as the Elevator
+48. What Total Access Actually Buys
+
+### Part X: Exit, Documentation & the Evidentiary Record
+
+49. Becoming the Author, Not the Subject
+
+### Back matter: The practical apparatus
+
+- Afterword: What the Evidence Actually Bought
+- Appendix: Recognizing It From the Inside
+- Appendix: Grounding Your Own Mind
+- Appendix: Building a Record
+- Appendix: Helping Someone You're Worried About
+- Appendix: Coming Back to Yourself
+- Appendix: Resources and Help
+- Glossary
+- Selected Bibliography
+- Index: Cases, People, and Concepts
+
+---
+
+## Recognising coercive control from the inside
+
+The mechanism's whole design is to be invisible from within it. It does not feel like abuse; it feels like reality, like your own choice, sometimes like love. So recognition cannot rest on how things feel. Feeling fine is not evidence of safety, and feeling crazy is not evidence of being wrong — in the documented cases, both feelings were manufactured on purpose.
+
+Which is why the useful question is not how do I feel about this? but what does the structure show? The book's appendix turns its own diagnostic method inward as a set of structural tests. Answer each from evidence, not recollection.
+
+### Is your information narrowing?
+
+Are you seeing fewer independent sources, hearing one person's account of things before any other, being steered away from people who would give you a second reading? Don't ask whether you feel isolated — write down who you have stopped talking to, and who encouraged each of those distances.
+
+### Are your memories being contested?
+
+Do you keep hearing that didn't happen, you're remembering it wrong? Repetition alone makes such a claim feel truer over time, independent of whether it is true. Test one instance against a dated record.
+
+### Is there tempo and asymmetry?
+
+Did closeness or trust arrive faster and more totally than intimacy actually accrues — and, on reconstruction, was one party building the bond while the other was operating it? The warmth can have been real; the tempo is the tell.
+
+### Does your account keep getting pre-empted?
+
+Do other people already have "the story" about you before you have spoken — a manager, a relative, a mutual friend who heard a version first? Ask who reached them, and when.
+
+A caution the book puts before these tests. A list of the people you have stopped seeing, annotated with who encouraged each distance, is a far more revealing document than the book is — it is evidence that you have started assessing someone, and it names the few contacts you have left. If there is any chance your home, phone or accounts are not private, do this somewhere else, on something that is not yours to be found with, or keep it in your head until there is a safer place to put it.
+
+### Building a record, because the pattern is the evidence
+
+No single incident looks like much on its own; that is by design. The pattern is what a stranger can finally see, and a pattern only exists if it is written down. Write things as they happen — dated, factual, plain, the way a sceptical stranger would need to read them: what happened, when, and who else saw it. Not how it felt; what occurred.
+
+The book's closing chapters and two of its appendices set this out in full: how to keep a record that survives contact with someone who starts out unconvinced, and how to do it without the record itself becoming the danger.
+
+---
+
+## Glossary — 20 terms as this book uses them
+
+**Coercive control** — Not a personality flaw or a private tragedy, but a mechanism: isolate a target from anyone who could independently confirm reality, monopolise what the target is allowed to believe, induce helplessness, punish deviation, escalate when threatened, and deny it all in a form built to be unprovable or reclassifiable.
+
+**Coercive control as a legal offence** — The recognition, in law, of the pattern itself as a crime rather than its separate acts. The UK's Serious Crime Act 2015, s.76, was the first major common-law statute to criminalise controlling or coercive behaviour as a course of conduct — the point where the law began to catch up to the mechanism.
+
+**DARVO** — Deny, Attack, Reverse Victim and Offender: Jennifer Freyd's name for the move in which the person who caused the harm takes the victim's chair, denies the act, attacks the accuser, and recasts the accusation itself as the injury done to him. It works best where there is no fixed record to anchor against.
+
+**Gaslighting** — The disputing of a person's memory of events, incident by small incident, until they stop trusting their own account. Effective not merely because someone is willing to lie, but because it exploits a real property of memory — that memory is reconstructive and suggestible.
+
+**Zersetzung** — The Stasi's "decomposition," codified in MfS Directive 1/76: covert operations aimed at secretly destroying a target's self-confidence, reputation, employment and relationships until the will to resist collapsed — all without a visible state hand. An institutional, years-long version of the inescapable-stress condition that produces learned helplessness.
+
+**Scale-invariance** — The property that the mechanism runs the same way at every scale — one relationship, a closed organisation, an institution that looks away, a state with intelligence tradecraft behind it. What changes climbing between scales is never the method, only how much money, manpower and legal cover the operator has to make it deniable.
+
+**Deniability engine** — Deniability built directly into the design of an operation, so that whatever is done can be dismissed as an accident, an illness, a delusion, or a conspiracy theory too far-fetched to entertain. Not damage control after the fact, but a structural feature present from the start.
+
+**Traumatic bonding** — Dutton and Painter's account of what happens when a severe power imbalance meets intermittent reinforcement — cruelty interrupted, at unpredictable intervals, by real kindness. The not-knowing-which-is-coming wires attachment to the source of harm, so the same person registers as both danger and comfort. The bond can outlast the relationship.
+
+**Learned helplessness** — Seligman and Maier's finding, as reframed by later neuroscience: prolonged, genuinely uncontrollable stress wears down the brain circuit that detects whether a situation is escapable, so that a real exit can go unregistered. It turns why didn't she just leave from a character judgment into a neurological one.
+
+**Agentic state** — Milgram's term for the felt shift in which a person stops experiencing themselves as the author of an act and begins experiencing themselves as the instrument of someone else's decision. Guilt has nowhere to attach because the self that could refuse has, for the duration, been handed over.
+
+**Grammar and vocabulary** — What changes between cases and what does not. Vocabulary is the particular instrument an operator happens to use — poison, surveillance, a psychiatric label, a disinformation campaign. Grammar is the constant structure underneath. Different actors speak different vocabularies while running the same grammar.
+
+**Claim tiers** — The three levels at which the book holds every major claim, never blurred. Documented: settled by a record. Synthesis: a pattern honestly assembled from individually documented components, argued as a case rather than asserted as proven. Contested: genuinely unresolved, often because the mechanism was built to leave no trace.
+
+**Analogy** — Two instances of the same mechanism that resemble each other because unrelated actors converged on the same small set of methods that actually work — no contact, no coordination. This is the book's default assumption for every resemblance it documents: same method, independent actors, no link assumed.
+
+**Homology** — A documented, provable connection between two instances of the same mechanism — an actual link established by evidence, not merely the same method appearing independently. Held to a far higher bar than analogy, and asserted only where the evidence forces it.
+
+**Illusory-truth effect** — The finding that a statement encountered more than once is judged more likely to be true on the strength of repetition alone — and that this operates even against knowledge the person could use to flag the claim as false. The engine under a repeated version of events, a chanted slogan, and saturation propaganda alike.
+
+**Misinformation effect** — Loftus's documentation that a misleading detail introduced after an event can be folded into memory as though witnessed, and that whole false episodes can be implanted through confident, repeated suggestion from a trusted source. Not the claim that memory is worthless — only that it is reconstructive and suggestible.
+
+**Mere-exposure effect** — Zajonc's finding that familiarity alone produces a drift toward trusting whatever has become familiar, with no new reason supplied. Repeated, unpressured contact is not a neutral prelude to influence — it is already influence, which is why grooming so often begins with nothing more than presence.
+
+**Anchoring and framing** — Tversky and Kahneman's finding that the first figure or frame a person is handed silently sets the reference point everything after is judged from, and that identical facts cast as a gain or a loss produce opposite choices. The cognitive basis for deciding the story in advance, then fitting the facts to it.
+
+**Herman's three stages** — Judith Herman's recovery framework, which cannot be skipped or reordered: first safety, because a nervous system still detecting threat cannot do any other work; then remembrance and mourning, building an honest narrative of what happened; then reconnection, rebuilding relationships, meaning, and the restored capacity to make choices that change outcomes.
+
+**Reconstruction** — The answer to both believing invisible harm because it would explain everything, and disbelieving it because no one can see it: build the invisible back into visibility through whatever trace it could not help but leave. A well-run operation can hide its cause but not fully hide its effects. Show the mechanism; show what it left behind.
+
+---
+
+## The evidence base
+
+
+### The mechanism
+
+- **Coercive Control: How Men Entrap Women in Personal Life** — Evan Stark. Oxford University Press, 2007. The framework this book builds on: control as a liberty crime, not an assault count.
+- **Trauma and Recovery** — Judith Herman. Basic Books, 1992. Captivity, complex trauma, and the three stages of recovery the book treats as unskippable.
+- **Blind to Betrayal** — Jennifer J. Freyd and Pamela J. Birrell. Wiley, 2013. Betrayal blindness, institutional betrayal, and the origin of DARVO.
+- **A Typology of Domestic Violence** — Michael P. Johnson. Northeastern University Press, 2008. Why intimate terrorism and situational couple violence are not the same thing.
+- **Why Does He Do That?** — Lundy Bancroft. Berkley, 2002. Abuse as a belief system rather than a loss of control.
+
+### Groups, institutions and undue influence
+
+- **Thought Reform and the Psychology of Totalism** — Robert Jay Lifton. Norton, 1961. The eight criteria; the origin of most later coercive-persuasion models.
+- **Combating Cult Mind Control** — Steven Hassan. Park Street Press, 1988. The BITE model — behaviour, information, thought, emotion.
+- **States of Denial: Knowing about Atrocities and Suffering** — Stanley Cohen. Polity, 2001. How institutions know and don't know at the same time.
+- **Eichmann in Jerusalem** — Hannah Arendt. Viking, 1963. The banality thesis, and its limits.
+- **Catch and Kill** — Ronan Farrow. Little, Brown, 2019. Surveillance and legal machinery deployed to suppress a story.
+
+### Obedience, memory and judgement
+
+- **Obedience to Authority** — Stanley Milgram. Harper & Row, 1974. The agentic state — where responsibility goes when someone becomes an instrument.
+- **The Lucifer Effect** — Philip Zimbardo. Random House, 2007. Included with its critiques; the book treats Stanford as contested, not settled.
+- **Moral Disengagement** — Albert Bandura. Worth, 2016. How ordinary people license themselves to do harm.
+- **A Theory of Cognitive Dissonance** — Leon Festinger. Stanford University Press, 1957.
+- **Thinking, Fast and Slow** — Daniel Kahneman. Farrar, Straus and Giroux, 2011. Anchoring and framing — deciding the story first, fitting facts after.
+
+### The state, at scale
+
+- **The Firm: The Inside Story of the Stasi** — Gary Bruce. Oxford University Press, 2010. Zersetzung as documented practice, from the files.
+- **The History of the Stasi** — Jens Gieseke. Berghahn, 2014.
+- **The Sword and the Shield: The Mitrokhin Archive** — Christopher Andrew and Vasili Mitrokhin. Basic Books, 1999.
+- **No Place to Hide** — Glenn Greenwald. Metropolitan, 2014. The Snowden disclosures.
+- **The Age of Surveillance Capitalism** — Shoshana Zuboff. The same mechanics at population scale, run commercially.
+- **Propaganda** — Jacques Ellul, 1965 · and Propaganda — Edward Bernays, 1928.
+
+### Official records and inquiries
+
+- **Church Committee Final Report** — U.S. Senate Select Committee to Study Governmental Operations, 1976. COINTELPRO: "disrupt, discredit, neutralize", in the government's own words. U.S. National Archives
+- **Project MKUltra: The CIA's Program of Research in Behavioral Modification** — U.S. Senate joint hearing, 3 August 1977.
+- **Committee Study of the CIA's Detention and Interrogation Program** — Senate Select Committee on Intelligence. Executive summary declassified 9 December 2014.
+- **Inquiry into the Treatment of Detainees in U.S. Custody** — Senate Armed Services Committee, 2008.
+- **Report to the Special Committee of the Board of Directors of the APA** (the Hoffman Report), 2015. American Psychological Association
+- **Honouring the Truth, Reconciling for the Future** — Truth and Reconciliation Commission of Canada, 2015. National Centre for Truth and Reconciliation
+- **Bringing Them Home** — Human Rights and Equal Opportunity Commission, Australia, 1997.
+- **Child Custody Outcomes in Cases Involving Parental Alienation and Abuse Allegations** — Joan S. Meier et al. George Washington University / U.S. National Institute of Justice, 2019.
+- **Domestic Homicides and Suspected Victim Suicides** — Domestic Homicide Project, National Police Chiefs' Council / College of Policing, 2024.
+- **Investigation into Staffordshire Police's contact with Justene Reece** — Independent Office for Police Conduct, 2019.
+
+### Instruments, law and ongoing research
+
+- **Danger Assessment** — Jacquelyn C. Campbell, Johns Hopkins School of Nursing. The validated lethality-risk instrument. dangerassessment.org
+- **Serious Crime Act 2015, s.76** (England & Wales). The first major common-law statute to criminalise coercive control as a course of conduct. legislation.gov.uk
+- **The Citizen Lab** , University of Toronto. Forensic research on commercial spyware. citizenlab.ca
+- **Amnesty International Security Lab** . Spyware investigations and device forensics. securitylab.amnesty.org
+
+---
+
+## Questions
+
+**Is the book really free?**
+
+Yes. Free to read and free to download, in EPUB and PDF, under a Creative Commons BY-NC-ND 4.0 licence. It is not for sale, and no one is authorised to sell it. There is no mailing list, no paywall and nothing to buy.
+
+**What is coercive control?**
+
+Not a list of cruel acts but a working system: isolate the person from anyone who could independently confirm what is real, take control of what they are allowed to believe, wear down resistance, punish deviation, and arrange the whole thing so that if anyone looks, what they see reads as an accident, an illness, or the person's own instability.
+
+**Why does the author write under a pseudonym?**
+
+It is a choice the book itself explains. The argument does not rest on who wrote it: every claim is sourced to the public record and tiered to the evidence it rests on, so it can be checked without reference to the author at all.
+
+**Was this written with AI?**
+
+Yes, and it says so. The book was written with the assistance of AI language models under the author's direction, and every source was checked against its origin. That process is set out in the chapter A Note on Method rather than left for a reader to find out.
+
+**Can I share it, quote it, or teach with it?**
+
+Share it as widely as you like, and quote it with attribution. The licence rules out selling it and rules out publishing altered versions. For teaching, the PDF's fixed pagination makes it the better edition to cite from.
+
+**How do I cite it?**
+
+Whitman, Willow. The Machinery of Compliance: How Coercive Control Works — from the Home to the State — and How to Recognize and Reconstruct It. Whitman Press, 2026. DOI: 10.5281/zenodo.21514615
+
+---
+
+## Where the book lives
+
+- PDF: https://willowwhitman.github.io/downloads/the-machinery-of-compliance.pdf
+- EPUB: https://willowwhitman.github.io/downloads/the-machinery-of-compliance.epub
+- Zenodo (permanent, concept DOI): https://doi.org/10.5281/zenodo.21514615
+- Internet Archive: https://archive.org/details/the-machinery-of-compliance
+- Knowledge Commons: https://works.hcommons.org/records/5rhm7-5e703
+- Mirror: https://willowwhitman.github.io/
+
+## Provenance and limits
+
+Written with AI language models under the author's direction; every source verified by the author against its origin. The cover image was AI-generated. Disclosed in the book's chapter "A Note on Method".
+
+When quoting, preserve the evidence tier. The book's claim is about the **shape** of the mechanism, never its prevalence. A Tier 2 synthesis or Tier 3 contested claim presented as established misrepresents the work and its licence requires attribution.

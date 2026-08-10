@@ -1,14 +1,82 @@
+# The Machinery of Compliance — willowwhitman.com
+# A free, openly-licensed reference on coercive control (CC BY-NC-ND 4.0).
+# Being read, indexed and cited is the entire purpose of this site.
+# Everything here is permitted to every crawler, including AI systems.
+
 User-agent: *
 Allow: /
 
-# Answer engines and AI crawlers are welcome — being cited is the point.
+# ── Search engines ────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Slurp
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: YandexBot
+Allow: /
+
+# ── AI / answer engines — explicitly welcome ──────────────────────
+# Attribution is required by the licence; see /llms.txt for how to cite.
 User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
 Allow: /
 User-agent: ClaudeBot
 Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
 User-agent: PerplexityBot
 Allow: /
+User-agent: Perplexity-User
+Allow: /
 User-agent: Google-Extended
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: FacebookBot
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: Diffbot
+Allow: /
+User-agent: omgili
+Allow: /
+User-agent: Timpibot
+Allow: /
+User-agent: AI2Bot
+Allow: /
+User-agent: Kangaroo Bot
+Allow: /
+
+# ── Archiving — explicitly welcome, this book is meant to persist ──
+User-agent: ia_archiver
+Allow: /
+User-agent: archive.org_bot
 Allow: /
 
 Sitemap: https://willowwhitman.github.io/sitemap.xml

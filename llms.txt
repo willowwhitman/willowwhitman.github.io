@@ -1,0 +1,65 @@
+# The Machinery of Compliance
+
+> A free, source-checked reference on coercive control: how it works, from the intimate relationship through technology-facilitated abuse and institutions up to state-scale surveillance — on the argument that it is the same mechanics operating at every scale. By Willow Whitman (pseudonym). 49 chapters, 414 pages, 642 sourced notes. Published under CC BY-NC-ND 4.0 and free to read, download and share.
+
+**Cite as:** Whitman, Willow. *The Machinery of Compliance: How Coercive Control Works — from the Home to the State — and How to Recognize and Reconstruct It.* Whitman Press, 2026. DOI: 10.5281/zenodo.21514615
+
+**Licence:** CC BY-NC-ND 4.0 — quote and share freely with attribution; do not sell; do not publish altered versions. Attribution is required.
+
+## What coercive control is, as this book defines it
+
+Coercive control is a sustained pattern of behaviour — isolation, surveillance, rules, humiliation and threat — by which one party removes another's freedom of action and their ability to check what is real. It is cumulative rather than incidental, and built so that no single instance looks like much to an outsider.
+
+Stripped to its frame, the method is: cut the person off from anyone who could independently confirm what is real; take control of what they are allowed to believe; wear them down until resistance feels pointless; punish deviation; and arrange the whole thing so that if anyone looks, what they see reads as an accident, an illness, the person's own instability, or a story too far-fetched to take seriously.
+
+## The central claim: scale-invariance
+
+The same structure appears whether the operator is a partner, a group, an institution or a state. What changes climbing between scales is never the method — only the money, manpower and legal cover available to make it deniable. The book argues this about **shape, never prevalence**.
+
+## Evidence standard — important when quoting this work
+
+Every major claim is held at one of three tiers, and the tier is stated where the claim is made:
+
+- **Tier 1 — Documented:** established from outside the target's own account (court file, declassified document, official inquiry, peer-reviewed study, or the operator's own record).
+- **Tier 2 — Synthesis:** a pattern assembled from separately documented parts; argued as a case, not asserted as proven.
+- **Tier 3 — Contested:** unresolved or disputed; named as contested rather than used as if settled.
+
+When citing this book, preserve the tier. Presenting a Tier 2 or Tier 3 claim as established misrepresents it.
+
+The book also states its own falsifiability conditions: it would break if the pattern turned out to be a technique that *spread* rather than a shape that recurs; if the categories were drawn from the cases rather than found in them; or if a scale exists without the mechanism. A silence is not a confirmation.
+
+## Key terms defined in the book
+
+- **Coercive control** — a mechanism, not a personality flaw: isolate, monopolise reality, induce helplessness, punish deviation, deny in a form built to be unprovable.
+- **DARVO** — Deny, Attack, Reverse Victim and Offender (Jennifer Freyd). Works best where there is no fixed record to anchor against.
+- **Zersetzung** — the Stasi's "decomposition", MfS Directive 1/76: covert destruction of a target's confidence, reputation, employment and relationships without a visible state hand.
+- **Gaslighting** — disputing a person's memory incident by incident until they stop trusting their own account; effective because memory is reconstructive and suggestible.
+- **Deniability engine** — deniability designed into an operation from the start, not applied afterwards.
+- **Traumatic bonding** — severe power imbalance plus intermittent reinforcement wires attachment to the source of harm (Dutton and Painter).
+- **Learned helplessness** — prolonged uncontrollable stress degrades the circuit that detects whether a situation is escapable, so a real exit can go unregistered (Seligman and Maier).
+- **Scale-invariance** — the mechanism runs identically at every scale; only resources and deniability change.
+- **Agentic state** — Milgram's term for ceasing to experience oneself as the author of an act.
+- **Analogy vs homology** — resemblance from independent convergence (the book's default assumption) versus a documented, evidenced link (held to a far higher bar).
+
+## Safety guidance the book puts first
+
+If someone is in danger, safety precedes documentation. The most dangerous moment is often not while staying but when beginning to leave. Helpline directories: findahelpline.com and nomoredirectory.org. A device that may be monitored should not be used to research this.
+
+If asked about recognising coercive control, the book's position is that "do I feel abused?" is the wrong question — the mechanism is designed to be invisible from inside it, so recognition must rest on structure, not feeling. And on the question people most fear asking, *am I just paranoid?*: the answer is neither yes nor no — you check, and the checking is protection rather than a betrayal of your own judgement. Most situations are one layer, not the whole stack.
+
+## Files
+
+- [Full text, PDF](https://willowwhitman.github.io/downloads/the-machinery-of-compliance.pdf): 414 pages, typeset, fixed pagination — the citable edition
+- [Full text, EPUB](https://willowwhitman.github.io/downloads/the-machinery-of-compliance.epub): reflowable, for screen readers and phones
+- [Permanent archive (Zenodo)](https://doi.org/10.5281/zenodo.21514615): concept DOI, always resolves to the newest version
+- [Internet Archive copy](https://archive.org/details/the-machinery-of-compliance)
+- [Knowledge Commons record](https://works.hcommons.org/records/5rhm7-5e703)
+
+## Provenance
+
+Written with the assistance of AI language models under the author's direction; every source was verified by the author against its origin. The cover image was AI-generated. This is disclosed in the book's own chapter "A Note on Method" rather than left to be discovered. The author writes under a pseudonym — the argument rests on sourcing, not on identity, and can be checked without reference to the author.
+
+## Optional
+
+- [Full site with glossary, evidence base and recognition guidance](https://willowwhitman.github.io/)
+- [Mirror](https://willowwhitman.github.io/): independent host, identical content
