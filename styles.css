@@ -95,7 +95,11 @@ p:last-child{margin-bottom:0}
 }
 .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;height:66px}
 .nav-brand{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:.98rem;letter-spacing:-.01em;white-space:nowrap}
-.mark{width:22px;height:22px;flex:none;display:block}
+.gear{
+  width:15px;height:15px;border-radius:50%;flex:none;
+  border:2.5px solid var(--accent);
+  box-shadow:0 0 0 3px rgba(196,84,26,.14);
+}
 .nav-links{display:flex;align-items:center;gap:26px;list-style:none;font-size:.9rem}
 .nav-links a{color:var(--fg-2);transition:color .16s ease}
 .nav-links a:hover{color:var(--fg)}
@@ -451,21 +455,21 @@ ul.tags li{
 }
 .gearfield>svg:first-child{position:absolute;width:0;height:0}
 .gearfield .gear{
-  position:absolute;opacity:.055;
+  position:absolute;opacity:.085;
   will-change:transform;
   animation:turn linear infinite;
 }
 @keyframes turn{ to{ transform:rotate(360deg) } }
 @keyframes turn-rev{ to{ transform:rotate(-360deg) } }
 
-.gear-a{width:46vmin;height:46vmin;top:-9vmin;right:-11vmin;animation-duration:150s}
-.gear-b{width:30vmin;height:30vmin;top:24vmin;right:16vmin;animation-name:turn-rev;animation-duration:105s}
-.gear-c{width:60vmin;height:60vmin;bottom:-18vmin;left:-16vmin;animation-duration:210s}
-.gear-d{width:24vmin;height:24vmin;bottom:22vmin;left:20vmin;animation-name:turn-rev;animation-duration:85s;opacity:.04}
+.gear-a{width:46vmin;height:46vmin;top:-9vmin;right:-11vmin;animation-duration:64s}
+.gear-b{width:30vmin;height:30vmin;top:24vmin;right:16vmin;animation-name:turn-rev;animation-duration:44s}
+.gear-c{width:60vmin;height:60vmin;bottom:-18vmin;left:-16vmin;animation-duration:88s}
+.gear-d{width:24vmin;height:24vmin;bottom:22vmin;left:20vmin;animation-name:turn-rev;animation-duration:34s;opacity:.07}
 
 @media (max-width:700px){
   .gear-b,.gear-d{display:none}          /* less to paint on phones */
-  .gearfield .gear{opacity:.045}
+  .gearfield .gear{opacity:.07}
 }
 @media (prefers-reduced-motion:reduce){
   .gearfield .gear{animation:none}       /* still there, simply not turning */
