@@ -485,3 +485,27 @@ ul.tags li{
 .srcs a{color:var(--accent-text);text-decoration:underline;text-underline-offset:3px;
         text-decoration-color:rgba(196,84,26,.4)}
 .srcs a:hover{color:#F09A63}
+
+/* ── diagrams ─────────────────────────────────────────────── */
+.dia{margin:2.2em 0 2em}
+.dia svg{width:100%;height:auto;display:block;overflow:visible}
+.dia figcaption{
+  margin-top:1em;font-size:.86rem;color:var(--muted);line-height:1.6;
+  padding-left:16px;border-left:2px solid var(--border);
+}
+.d-cap{fill:var(--accent-text);font-family:var(--sans);font-size:11px;
+       font-weight:600;letter-spacing:.16em}
+.d-row rect{fill:url(#dg);stroke:rgba(196,84,26,.45);stroke-width:1}
+.d-row text{fill:#F4F6FB;font-family:var(--sans);font-size:14px;font-weight:600}
+.d-sub{fill:rgba(244,246,251,.66)!important;font-size:11.5px!important;font-weight:400!important}
+.d-axis{stroke:var(--border-2);stroke-width:1}
+.d-axis-l{fill:rgba(244,246,251,.5);font-family:var(--sans);font-size:11px}
+.d-tier rect{fill:rgba(255,255,255,.04);stroke:var(--border);stroke-width:1}
+.d-tier.t1 rect{stroke:rgba(196,84,26,.75)}
+.d-tier.t2 rect{stroke:rgba(196,84,26,.42)}
+.d-tier.t3 rect{stroke:rgba(196,84,26,.20)}
+.d-tier text{fill:#F4F6FB;font-family:var(--sans);font-size:14px;font-weight:600}
+@media (max-width:560px){
+  .d-row text,.d-tier text{font-size:16px}
+  .d-sub{font-size:13px!important}
+}
