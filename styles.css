@@ -454,29 +454,22 @@ ul.tags li{
 }
 .gearfield>svg:first-child{position:absolute;width:0;height:0}
 .gearfield .gear{
-  position:absolute;opacity:.20;
+  position:absolute;opacity:.085;
   transform-origin:50% 50%;          /* rotate about the hub, not a corner */
   will-change:transform;
-  animation:turn linear infinite;
-}
-.gearfield .cog{
-  fill:none;
-  stroke:url(#rust);
-  stroke-width:4.5;
-  stroke-linejoin:round;
-  vector-effect:non-scaling-stroke;
+  animation:turn 70s linear infinite;
 }
 @keyframes turn{ to{ transform:rotate(360deg) } }
 @keyframes turn-rev{ to{ transform:rotate(-360deg) } }
 
-.gear-a{width:46vmin;height:46vmin;top:-9vmin;right:-11vmin;animation-duration:74s}
-.gear-b{width:30vmin;height:30vmin;top:24vmin;right:16vmin;animation-name:turn-rev;animation-duration:48s}
-.gear-c{width:60vmin;height:60vmin;bottom:-18vmin;left:-16vmin;animation-duration:96s}
-.gear-d{width:24vmin;height:24vmin;bottom:22vmin;left:20vmin;animation-name:turn-rev;animation-duration:38s;opacity:.07}
+.gearfield .gear-a{width:46vmin;height:46vmin;top:-9vmin;right:-11vmin;animation-duration:74s}
+.gearfield .gear-b{width:30vmin;height:30vmin;top:24vmin;right:16vmin;animation-name:turn-rev;animation-duration:48s}
+.gearfield .gear-c{width:60vmin;height:60vmin;bottom:-18vmin;left:-16vmin;animation-duration:96s}
+.gearfield .gear-d{width:24vmin;height:24vmin;bottom:22vmin;left:20vmin;animation-name:turn-rev;animation-duration:38s;opacity:.07}
 
 @media (max-width:700px){
-  .gear-b,.gear-d{display:none}          /* less to paint on phones */
-  .gearfield .gear{opacity:.17}
+  .gearfield .gear-b,.gearfield .gear-d{display:none}          /* less to paint on phones */
+  .gearfield .gear{opacity:.07}
 }
 @media (prefers-reduced-motion:reduce){
   .gearfield .gear{animation:none}       /* still there, simply not turning */
