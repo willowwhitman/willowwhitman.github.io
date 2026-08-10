@@ -110,7 +110,6 @@ p:last-child{margin-bottom:0}
 }
 .nav-cta:hover{background:var(--accent);color:#fff!important}
 @media (max-width:860px){
-  .nav-brand span:last-child{display:none}
   .nav-links{gap:16px;font-size:.85rem}
 }
 @media (max-width:560px){
@@ -512,4 +511,20 @@ ul.tags li{
 @media (max-width:560px){
   .d-row text,.d-tier text{font-size:16px}
   .d-sub{font-size:13px!important}
+}
+
+/* ── nav spacing ──────────────────────────────────────────── */
+/* The bar gets a wider track than the prose: 8 items + wordmark never fit
+   the 940px measure, and the text column shouldn't widen just to suit them. */
+.nav .wrap{max-width:1160px}
+.nav-inner{flex-wrap:nowrap;gap:32px}
+.nav-brand{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.nav-links{flex:0 0 auto;gap:clamp(14px,1.9vw,28px);white-space:nowrap}
+.nav-links a{white-space:nowrap}
+
+/* hide the wordmark before the links start crushing, not after */
+@media (max-width:1120px){ .nav-brand span:last-child{display:none} }
+@media (max-width:900px) and (min-width:761px){
+  .nav-links{font-size:.82rem;gap:14px}
+  .nav-cta{padding:6px 12px}
 }
