@@ -461,10 +461,10 @@ ul.tags li{
 @keyframes turn{ to{ transform:rotate(360deg) } }
 @keyframes turn-rev{ to{ transform:rotate(-360deg) } }
 
-.gear-a{width:46vmin;height:46vmin;top:-9vmin;right:-11vmin;animation-duration:64s}
-.gear-b{width:30vmin;height:30vmin;top:24vmin;right:16vmin;animation-name:turn-rev;animation-duration:44s}
-.gear-c{width:60vmin;height:60vmin;bottom:-18vmin;left:-16vmin;animation-duration:88s}
-.gear-d{width:24vmin;height:24vmin;bottom:22vmin;left:20vmin;animation-name:turn-rev;animation-duration:34s;opacity:.07}
+.gear-a{width:46vmin;height:46vmin;top:-9vmin;right:-11vmin;animation-duration:74s}
+.gear-b{width:30vmin;height:30vmin;top:24vmin;right:16vmin;animation-name:turn-rev;animation-duration:48s}
+.gear-c{width:60vmin;height:60vmin;bottom:-18vmin;left:-16vmin;animation-duration:96s}
+.gear-d{width:24vmin;height:24vmin;bottom:22vmin;left:20vmin;animation-name:turn-rev;animation-duration:38s;opacity:.07}
 
 @media (max-width:700px){
   .gear-b,.gear-d{display:none}          /* less to paint on phones */
