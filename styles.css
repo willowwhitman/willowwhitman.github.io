@@ -454,9 +454,17 @@ ul.tags li{
 }
 .gearfield>svg:first-child{position:absolute;width:0;height:0}
 .gearfield .gear{
-  position:absolute;opacity:.085;
+  position:absolute;opacity:.20;
+  transform-origin:50% 50%;          /* rotate about the hub, not a corner */
   will-change:transform;
   animation:turn linear infinite;
+}
+.gearfield .cog{
+  fill:none;
+  stroke:url(#rust);
+  stroke-width:4.5;
+  stroke-linejoin:round;
+  vector-effect:non-scaling-stroke;
 }
 @keyframes turn{ to{ transform:rotate(360deg) } }
 @keyframes turn-rev{ to{ transform:rotate(-360deg) } }
@@ -468,7 +476,7 @@ ul.tags li{
 
 @media (max-width:700px){
   .gear-b,.gear-d{display:none}          /* less to paint on phones */
-  .gearfield .gear{opacity:.07}
+  .gearfield .gear{opacity:.17}
 }
 @media (prefers-reduced-motion:reduce){
   .gearfield .gear{animation:none}       /* still there, simply not turning */
