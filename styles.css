@@ -646,6 +646,15 @@ h1 + .section-lede{margin-top:.9em}
 .signs{margin:1.2em 0 1.35em 1.4em;padding:0;color:var(--fg-2)}
 .signs li{margin:0 0 .55em;padding-left:.3em}
 .signs li::marker{color:var(--accent-text,#E8834A);font-weight:600}
+.glance{display:grid;grid-template-columns:max-content 1fr;gap:.35em 1.2em;margin:1.6em 0 0;font-size:.95rem}
+.glance dt{color:var(--muted);font-weight:600}
+.glance dd{margin:0;color:var(--fg-2)}
+.faq-open h3{font-size:1.05rem;margin:1.6em 0 .4em;color:var(--fg)}
+.faq-open p{margin:0;color:var(--fg-2)}
+.on-page{margin-top:1.4em;font-size:.92rem;color:var(--muted)}
+.chapter-terms{margin-top:1em;font-size:.92rem;color:var(--muted)}
+.faq-open .cc-quote{margin:0}
+@media (max-width:480px){.glance{grid-template-columns:1fr}.glance dd{margin-bottom:.5em}}
 .prose-quote{
   font-family:var(--serif);font-size:1.12rem;line-height:1.6;color:var(--fg);
   border-left:2px solid var(--accent);padding-left:22px;margin-bottom:1.2em;
