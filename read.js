@@ -347,6 +347,14 @@
     ep.rendition.themes.fontSize(fontPct + "%");
 
     ep.rendition.on("rendered", hideStatus);
+
+    /* epub.js renders the book into an untitled iframe, which leaves screen
+       readers announcing an unnamed frame. Name it as each section loads. */
+    ep.rendition.on("rendered", () => {
+      viewer.querySelectorAll("iframe:not([title])").forEach((fr) => {
+        fr.setAttribute("title", "The Machinery of Compliance — book text");
+      });
+    });
     ep.rendition.on("relocated", (loc) => {
       const href = loc.start.href;
       highlightToc((t) => t.href && href.indexOf(t.href.split("#")[0]) !== -1);
@@ -531,4 +539,21 @@
   switchMode(savedMode === "epub" || savedMode === "pdf"
     ? savedMode
     : (window.innerWidth >= 900 ? "pdf" : "epub"));
+})();
+
+/* ── top-bar title fit ─────────────────────────────────────── */
+/* The book title either shows every letter or steps aside for the
+   tools — it is never shown partially, at any width or zoom. */
+(function () {
+  const title = document.querySelector(".rd-title");
+  if (!title) return;
+  const fit = () => {
+    title.hidden = false;                       // measure at full width
+    if (title.scrollWidth > title.clientWidth) title.hidden = true;
+  };
+  let raf = 0;
+  const queueFit = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(fit); };
+  window.addEventListener("resize", queueFit);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(queueFit);
+  fit();
 })();

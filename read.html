@@ -238,7 +238,7 @@ body[data-rmode="pdf"] .rd-arrow{display:none}
         <div class="spin" aria-hidden="true"></div>
         <p class="small" id="rd-status-msg">Opening the book…</p>
       </div>
-      <div id="viewer" tabindex="-1" aria-label="Book text"></div>
+      <div id="viewer" tabindex="-1" role="region" aria-label="Book text"></div>
       <button class="rd-arrow rd-prev" id="prev-btn" aria-label="Previous page"><span aria-hidden="true">‹</span></button>
       <button class="rd-arrow rd-next" id="next-btn" aria-label="Next page"><span aria-hidden="true">›</span></button>
     </div>
@@ -250,7 +250,7 @@ body[data-rmode="pdf"] .rd-arrow{display:none}
       <div class="rd-bar" aria-hidden="true"><span id="rd-bar-fill"></span></div>
       <span class="rd-pct" id="rd-pct"></span>
     </div>
-    <label class="rd-remember" title="Off by default. When on, your place and settings are saved in this browser only — a trace someone with access to this device could find.">
+    <label class="rd-remember" for="remember-toggle" title="Off by default. When on, your place and settings are saved in this browser only — a trace someone with access to this device could find.">
       <input type="checkbox" id="remember-toggle">
       <span>Remember my place on this device</span>
     </label>
@@ -260,10 +260,81 @@ body[data-rmode="pdf"] .rd-arrow{display:none}
 
 <noscript>
   <div class="rd-nojs">
-    <h1>Reading online needs JavaScript</h1>
-    <p>The in-browser reader can't run with JavaScript off — but the book itself doesn't need it. Download it directly:</p>
-    <p><a href="/downloads/the-machinery-of-compliance.pdf" download>PDF (4.6 MB)</a> · <a href="/downloads/the-machinery-of-compliance.epub" download>EPUB (3.2 MB)</a></p>
-    <p><a href="/">← Back to willowwhitman.com</a></p>
+    <h1>Read The Machinery of Compliance</h1>
+    <p>This page is an in-browser reader, and it needs JavaScript to open the typeset PDF or the reflowable EPUB. The book itself does not. Every chapter of <em>The Machinery of Compliance</em> — Willow Whitman's free, source-checked book on coercive control, from the intimate relationship to the state — is also published as an ordinary web page, with its notes. No JavaScript, no download, nothing to sign up for.</p>
+    <p><a href="/coercive-control">What coercive control is</a> · <a href="/book">All 49 chapters</a> · <a href="/downloads/the-machinery-of-compliance.pdf" download>PDF (4.6 MB)</a> · <a href="/downloads/the-machinery-of-compliance.epub" download>EPUB (3.2 MB)</a></p>
+    <!-- chapters:start -->
+    <h2>Every chapter, as a page</h2>
+    <ol class="rd-nojs-toc">
+      <li><a href="/book/if-you-are-in-danger">If You Are in Danger</a></li>
+      <li><a href="/book/a-note-on-content">A Note on Content</a></li>
+      <li><a href="/book/the-short-version">The Short Version</a></li>
+      <li><a href="/book/how-to-read-this-book">How to Read This Book</a></li>
+      <li><a href="/book/a-note-on-method">A Note on Method</a></li>
+      <li><a href="/book/introduction">Introduction: Grammar, Not Vocabulary</a></li>
+      <li><a href="/book/map-of-the-layers">Map of the Layers</a></li>
+      <li><a href="/book/chapter-1-the-machinery-of-compliance">Chapter One: The Machinery of Compliance</a></li>
+      <li><a href="/book/chapter-2-the-engine">Chapter Two: The Engine</a></li>
+      <li><a href="/book/chapter-3-the-reversal">Chapter Three: The Reversal</a></li>
+      <li><a href="/book/chapter-4-the-curated-mind">Chapter Four: The Curated Mind</a></li>
+      <li><a href="/book/chapter-5-the-trained-nervous-system">Chapter Five: The Trained Nervous System</a></li>
+      <li><a href="/book/chapter-6-the-omniscient-pocket">Chapter Six: The Omniscient Pocket</a></li>
+      <li><a href="/book/chapter-7-the-weather-of-the-self">Chapter Seven: The Weather of the Self</a></li>
+      <li><a href="/book/chapter-8-the-ledger-as-cage">Chapter Eight: The Ledger as Cage</a></li>
+      <li><a href="/book/chapter-9-how-ordinary-people-live-with-it">Chapter Nine: How Ordinary People Live With It</a></li>
+      <li><a href="/book/chapter-10-the-perfect-alibi">Chapter Ten: The Perfect Alibi</a></li>
+      <li><a href="/book/chapter-11-the-pattern-that-isnt-there">Chapter Eleven: The Pattern That Isn&#x27;t There</a></li>
+      <li><a href="/book/chapter-12-the-way-in">Chapter Twelve: The Way In</a></li>
+      <li><a href="/book/chapter-13-the-hand-that-feeds">Chapter Thirteen: The Hand That Feeds</a></li>
+      <li><a href="/book/chapter-14-the-borrowed-threat">Chapter Fourteen: The Borrowed Threat</a></li>
+      <li><a href="/book/chapter-15-the-held-secret">Chapter Fifteen: The Held Secret</a></li>
+      <li><a href="/book/chapter-16-the-mercenary-market-and-the-forensic-answer">Chapter Sixteen: The Mercenary Market and the Forensic Answer</a></li>
+      <li><a href="/book/chapter-17-every-room-miked-and-watched">Chapter Seventeen: Every Room, Miked and Watched</a></li>
+      <li><a href="/book/chapter-18-the-profiling-engine">Chapter Eighteen: The Profiling Engine</a></li>
+      <li><a href="/book/chapter-19-the-smart-home-as-informant">Chapter Nineteen: The Smart Home as Informant</a></li>
+      <li><a href="/book/chapter-20-the-keys-to-everything">Chapter Twenty: The Keys to Everything</a></li>
+      <li><a href="/book/chapter-21-the-body-the-car-and-the-door">Chapter Twenty-One: The Body, the Car, and the Door</a></li>
+      <li><a href="/book/chapter-22-the-platform-and-the-tunnel">Chapter Twenty-Two: The Platform and the Tunnel</a></li>
+      <li><a href="/book/chapter-23-what-looks-like-ordinary-decline">Chapter Twenty-Three: What Looks Like Ordinary Decline</a></li>
+      <li><a href="/book/chapter-24-the-subtraction">Chapter Twenty-Four: The Subtraction</a></li>
+      <li><a href="/book/chapter-25-four-scales-one-pathogen-logic">Chapter Twenty-Five: Four Scales, One Pathogen Logic</a></li>
+      <li><a href="/book/chapter-26-the-body-and-the-bloodline">Chapter Twenty-Six: The Body and the Bloodline</a></li>
+      <li><a href="/book/chapter-27-the-cyanide-convergence">Chapter Twenty-Seven: The Cyanide Convergence</a></li>
+      <li><a href="/book/chapter-28-the-arithmetic-of-concealment">Chapter Twenty-Eight: The Arithmetic of Concealment</a></li>
+      <li><a href="/book/chapter-29-silence-enforced-by-law-and-leverage">Chapter Twenty-Nine: Silence Enforced by Law and Leverage</a></li>
+      <li><a href="/book/chapter-30-the-bullet-and-the-frozen-account">Chapter Thirty: The Bullet and the Frozen Account</a></li>
+      <li><a href="/book/chapter-31-the-real-thing-engineered">Chapter Thirty-One: The Real Thing, Engineered</a></li>
+      <li><a href="/book/chapter-32-recruiting-the-bystanders-own-eyes">Chapter Thirty-Two: Recruiting the Bystander&#x27;s Own Eyes</a></li>
+      <li><a href="/book/chapter-33-six-percent-of-the-truth">Chapter Thirty-Three: Six Percent of the Truth</a></li>
+      <li><a href="/book/chapter-34-a-disclosure-that-never-happened">Chapter Thirty-Four: A Disclosure That Never Happened</a></li>
+      <li><a href="/book/chapter-35-two-lies-braced-against-each-other">Chapter Thirty-Five: Two Lies, Braced Against Each Other</a></li>
+      <li><a href="/book/chapter-36-the-case-made-to-fit">Chapter Thirty-Six: The Case Made to Fit</a></li>
+      <li><a href="/book/chapter-37-the-court-as-the-instrument">Chapter Thirty-Seven: The Court as the Instrument</a></li>
+      <li><a href="/book/chapter-38-the-world-without-exits">Chapter Thirty-Eight: The World Without Exits</a></li>
+      <li><a href="/book/chapter-39-the-community-as-informant">Chapter Thirty-Nine: The Community as Informant</a></li>
+      <li><a href="/book/chapter-40-the-church-as-cover">Chapter Forty: The Church as Cover</a></li>
+      <li><a href="/book/chapter-41-the-parallel-life">Chapter Forty-One: The Parallel Life</a></li>
+      <li><a href="/book/chapter-42-the-escalator-with-no-clean-line">Chapter Forty-Two: The Escalator With No Clean Line</a></li>
+      <li><a href="/book/chapter-43-the-state-confesses">Chapter Forty-Three: The State Confesses</a></li>
+      <li><a href="/book/chapter-44-the-same-form-every-time">Chapter Forty-Four: The Same Form, Every Time</a></li>
+      <li><a href="/book/chapter-45-the-firehose">Chapter Forty-Five: The Firehose</a></li>
+      <li><a href="/book/chapter-46-the-crowd-as-the-weapon">Chapter Forty-Six: The Crowd as the Weapon</a></li>
+      <li><a href="/book/chapter-47-money-as-the-elevator">Chapter Forty-Seven: Money as the Elevator</a></li>
+      <li><a href="/book/chapter-48-what-total-access-actually-buys">Chapter Forty-Eight: What Total Access Actually Buys</a></li>
+      <li><a href="/book/chapter-49-becoming-the-author-not-the-subject">Chapter Forty-Nine: Becoming the Author, Not the Subject</a></li>
+      <li><a href="/book/afterword">Afterword: What the Evidence Actually Bought</a></li>
+      <li><a href="/book/appendix-recognizing-it-from-the-inside">Appendix: Recognizing It From the Inside</a></li>
+      <li><a href="/book/appendix-grounding-your-own-mind">Appendix: Grounding Your Own Mind</a></li>
+      <li><a href="/book/appendix-building-a-record">Appendix: Building a Record</a></li>
+      <li><a href="/book/appendix-helping-someone-youre-worried-about">Appendix: Helping Someone You&#x27;re Worried About</a></li>
+      <li><a href="/book/appendix-coming-back-to-yourself">Appendix: Coming Back to Yourself</a></li>
+      <li><a href="/book/appendix-resources-and-help">Appendix: Resources and Help</a></li>
+      <li><a href="/book/glossary">Glossary</a></li>
+      <li><a href="/book/selected-bibliography">Selected Bibliography</a></li>
+      <li><a href="/book/index-of-cases-and-concepts">Index: Cases, People, and Concepts</a></li>
+    </ol>
+    <!-- chapters:end -->
+    <p><a href="/">&larr; Back to willowwhitman.com</a></p>
   </div>
 </noscript>
 

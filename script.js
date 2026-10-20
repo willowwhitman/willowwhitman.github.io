@@ -100,7 +100,7 @@ const toc = document.getElementById("toc");
 const input = document.getElementById("chapter-search");
 const status = document.getElementById("search-status");
 
-if (toc) {
+if (toc && !toc.children.length) {
   const frag = document.createDocumentFragment();
 
   PARTS.forEach((part) => {
@@ -240,11 +240,20 @@ document.querySelectorAll("[data-copy]").forEach((btn) => {
   });
 })();
 
-/* ── mobile navigation ─────────────────────────────────────── */
+/* ── collapsible navigation ────────────────────────────────── */
+/* The links collapse behind the menu button the moment the full row —
+   wordmark, every link, the CTA — no longer fits, measured against the
+   real rendered widths rather than guessed from breakpoints, so nothing
+   is ever clipped at any viewport width, font, or zoom level. */
 (function () {
+  const bar = document.querySelector("header.nav");
   const btn = document.getElementById("nav-toggle");
   const list = document.getElementById("nav-links");
-  if (!btn || !list) return;
+  if (!bar || !btn || !list) return;
+  const inner = bar.querySelector(".nav-inner");
+  const brand = bar.querySelector(".nav-brand");
+  const links = bar.querySelector("nav");
+
   const setOpen = (open) => {
     list.classList.toggle("open", open);
     btn.setAttribute("aria-expanded", String(open));
@@ -255,6 +264,23 @@ document.querySelectorAll("[data-copy]").forEach((btn) => {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && list.classList.contains("open")) { setOpen(false); btn.focus(); }
   });
+
+  const fit = () => {
+    bar.classList.remove("is-tight");          // measure the expanded row
+    const cs = getComputedStyle(inner);
+    const avail = inner.clientWidth
+      - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight)
+      - (parseFloat(cs.columnGap) || 0);
+    const tight = brand.offsetWidth + links.offsetWidth > avail;
+    bar.classList.toggle("is-tight", tight);
+    if (!tight) setOpen(false);
+  };
+
+  let raf = 0;
+  const queueFit = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(fit); };
+  window.addEventListener("resize", queueFit);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(queueFit);
+  fit();
 })();
 
 /* ── back to top ───────────────────────────────────────────── */
